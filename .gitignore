@@ -178,6 +178,9 @@ cython_debug/
 ## util directory
 util/
 
+## tempcoderunner
+/tempCodeRunnerFile.py
+
 # Support for Project snippet scope
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python
