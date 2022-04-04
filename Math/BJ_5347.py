@@ -5,14 +5,14 @@
 import sys
 
 # 최대 공약수 구하기
-def gdm(a,b):
+def gcd(a,b):
   while b != 0:
     a , b = b , a%b
   return a
 
 # 최소 공배수 구하기
 def lcm(a,b):
-  return a*b//gdm(a,b)
+  return a*b//gcd(a,b)
 
 n = int(sys.stdin.readline())
 
