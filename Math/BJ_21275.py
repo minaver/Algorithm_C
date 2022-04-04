@@ -1,6 +1,6 @@
 # Topic : MATH _ 폰 호석만
 #
-# PyPy 3 : 112ms(11/24)
+# Python 3 : 68ms(11/24)
 import sys
 
 a , b = sys.stdin.readline().split()
@@ -34,6 +34,9 @@ for i in range(min_a,37): # a가 가능한 진법들
       continue
 
     if int(a,i) == int(b,j):  # 각각의 경우에서 a,b가 같아지는 진법이 있는지 확인
+      if int(a,i) >= 2**63: # 0 ≤ X < 2**63
+        continue
+
       if count == 1:  # 만약 이미 같아지는 진법이 존재했다면 Multiple
         print("Multiple")
         break
