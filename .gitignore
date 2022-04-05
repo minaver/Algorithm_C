@@ -179,7 +179,8 @@ cython_debug/
 util/
 
 ## tempcoderunner
-/tempCodeRunnerFile.py
+.tempCodeRunnerFile.py
+*/tempCodeRunnerFile.py
 
 # Support for Project snippet scope
 
