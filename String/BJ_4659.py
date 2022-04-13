@@ -1,6 +1,6 @@
 # Topic : String _ 비밀번호 발음하기
 #
-# PyPy 3 : 68ms
+# Python 3 : 68ms
 
 import sys
 
