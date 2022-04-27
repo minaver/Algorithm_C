@@ -1,6 +1,7 @@
 # Topic : Data_Structure _ 덱
 #
 # PyPy 3 : 180ms
+# 그냥 deque 사용
 
 import sys
 from collections import deque
