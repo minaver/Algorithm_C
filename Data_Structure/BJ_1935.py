@@ -1,6 +1,6 @@
 # Topic : Data_Structure _ 후위 표기식 2
 #
-# PyPy 3 : 68ms
+# Python 3 : 68ms
 import sys 
 
 N = int(sys.stdin.readline())
