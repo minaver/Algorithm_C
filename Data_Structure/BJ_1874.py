@@ -2,7 +2,6 @@
 #
 # PyPy 3 : 220ms
 
-
 import sys
 
 # 준비물
