@@ -1,6 +1,7 @@
 # Topic : Brute_Force  _ 블랙잭
 #
 # PyPy 3 : 144ms
+# 조합(combinations) 사용
 
 from itertools import combinations
 import sys
