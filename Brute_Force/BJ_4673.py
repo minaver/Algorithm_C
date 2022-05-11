@@ -1,6 +1,6 @@
 # Topic : Brute_Force  _ 셀프 넘버
 #
-# PyPy 3 : 76ms
+# Python 3 : 76ms
 # set 차집합 연산 사용
 
 # set로 한 이유는 list로 구현했을때 all_num에서 non_self_num을 빼는건 어렵다
