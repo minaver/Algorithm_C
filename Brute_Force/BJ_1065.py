@@ -1,7 +1,7 @@
 # Topic : Brute_Force  _ 한수
 #
 # Python 3 : 72ms
-# 
+# 등차수열시 a(N+2)*2 == a(N) + a(N+1) 
 
 import sys
 import math
